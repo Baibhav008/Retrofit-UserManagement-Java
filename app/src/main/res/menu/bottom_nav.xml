@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="Dashboard"
+        android:id="@+id/dashboard"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/dashboard_img"
+        />
+    <item
+        android:title="Users"
+        android:id="@+id/users"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/users_img"
+        />
+    <item
+        android:title="Profile"
+        android:id="@+id/profile"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/profile_image"
+        />
+</menu>
